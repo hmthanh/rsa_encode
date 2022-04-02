@@ -80,7 +80,7 @@ int64_t gcd(int64_t a, int64_t h)
 }
 
 // power x^y in Z_p
-int64_t encode(int64_t x, int64_t E, int64_t p, )
+int64_t encode(int64_t x, int64_t E, int64_t p)
 {
     int64_t pow = 1;
     for (int64_t i = 0; i < E; i++)
